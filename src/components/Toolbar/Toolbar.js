@@ -6,10 +6,11 @@ const toolbar = props => (
     <nav className="toolbar__navigation">
       <div></div>
       <div className="toolbar__logo"><a href="/" >THE LOGO</a></div>
-      <div>
+      <div className="spacer"></div>
+      <div className="toolbar__navigation-items">
         <ul>
-          <li className="toolbar__navigation-items"><a href="/" >Products</a></li>
-          <li className="toolbar__navigation-items"><a href="/" >Users</a></li>
+          <li><a href="/" >Products</a></li>
+          <li><a href="/" >Users</a></li>
         </ul>
       </div>
     </nav>
