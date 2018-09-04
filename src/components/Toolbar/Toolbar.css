@@ -7,6 +7,14 @@
     height: 56px;
 }
 
+.spacer {
+    flex: 1;
+}
+
+.toolbar__logo {
+    margin-left: 1rem;
+}
+
 .toolbar__navigation {
     display: flex;
     height: 100%;
